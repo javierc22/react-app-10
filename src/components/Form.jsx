@@ -3,9 +3,7 @@ import { CategoriasContext } from '../context/CategoriasContext';
 
 const Form = () => {
 
-  const { hola } = useContext(CategoriasContext);
-
-  alert(hola);
+  const { categorias } = useContext(CategoriasContext);
 
   return (
     <form className="col-12">
